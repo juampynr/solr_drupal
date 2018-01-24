@@ -12,7 +12,7 @@ try this image instead.
 Run the image with the following command:
 
 ```bash
-docker run -it --name=solr_drupal -p 8983:8983 solr_drupal
+docker run -it --name=solr_drupal -p 8983:8983 juampynr/solr_drupal
 ```
 
 Then, open it in your browser at `http://0.0.0.0:8983/solr/admin`.
